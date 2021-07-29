@@ -1,0 +1,444 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: ActivityPub\n"
+"POT-Creation-Date: 2021-07-29 17:25+0800\n"
+"PO-Revision-Date: 2021-07-29 17:24+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: activitypub.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: includes/class-admin.php:33
+msgid "Followers"
+msgstr ""
+
+#: includes/class-admin.php:33 templates/followers-list.php:2
+msgid "Followers (Fediverse)"
+msgstr ""
+
+#: includes/class-admin.php:59
+msgid "Use title and link, summary, full or custom content"
+msgstr ""
+
+#: includes/class-admin.php:71
+msgid "Define your own custom post template"
+msgstr ""
+
+#: includes/class-admin.php:79
+msgid "The Activity-Object-Type"
+msgstr ""
+
+#: includes/class-admin.php:91
+msgid ""
+"Add hashtags in the content as native tags and replace the #tag with the tag-"
+"link"
+msgstr ""
+
+#: includes/class-admin.php:98
+msgid "List of HTML elements that are allowed in activities."
+msgstr ""
+
+#: includes/class-admin.php:105
+msgid "Enable ActivityPub support for post types"
+msgstr ""
+
+#: includes/class-admin.php:116
+msgid "Overview"
+msgstr ""
+
+#: includes/class-admin.php:118
+msgid ""
+"ActivityPub is a decentralized social networking protocol based on the "
+"ActivityStreams 2.0 data format. ActivityPub is an official W3C recommended "
+"standard published by the W3C Social Web Working Group. It provides a client "
+"to server API for creating, updating and deleting content, as well as a "
+"federated server to server API for delivering notifications and subscribing "
+"to content."
+msgstr ""
+
+#: includes/class-admin.php:123
+msgid "For more information:"
+msgstr ""
+
+#: includes/class-admin.php:124
+msgid "<a href=\"https://activitypub.rocks/\">Test Suite</a>"
+msgstr ""
+
+#: includes/class-admin.php:125
+msgid "<a href=\"https://www.w3.org/TR/activitypub/\">W3C Spec</a>"
+msgstr ""
+
+#: includes/class-admin.php:126
+msgid ""
+"<a href=\"https://github.com/pfefferle/wordpress-activitypub/issues\">Give "
+"us feedback</a>"
+msgstr ""
+
+#: includes/class-admin.php:128
+msgid "<a href=\"https://notiz.blog/donate\">Donate</a>"
+msgstr ""
+
+#: includes/class-admin.php:138
+msgid "Fediverse"
+msgstr ""
+
+#: includes/class-health-check.php:22
+msgid "Author URL test"
+msgstr ""
+
+#: includes/class-health-check.php:27
+msgid "WebFinger Test"
+msgstr ""
+
+#: includes/class-health-check.php:41
+msgid "Author URL accessible"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/class-health-check.php:44 includes/class-health-check.php:82
+msgid "ActivityPub"
+msgstr ""
+
+#: includes/class-health-check.php:49
+msgid ""
+"Your author URL is accessible and supports the required \"Accept\" header."
+msgstr ""
+
+#: includes/class-health-check.php:62
+msgid "Author URL is not accessible"
+msgstr ""
+
+#: includes/class-health-check.php:79
+msgid "WebFinger endpoint"
+msgstr ""
+
+#: includes/class-health-check.php:87
+msgid ""
+"Your WebFinger endpoint is accessible and returns the correct informations."
+msgstr ""
+
+#: includes/class-health-check.php:100
+msgid "WebFinger endpoint is not accessible"
+msgstr ""
+
+#: includes/class-health-check.php:127
+#, php-format
+msgid ""
+"<p>Your author URL <code>%s</code> was replaced, this is often done by "
+"plugins.</p>"
+msgstr ""
+
+#: includes/class-health-check.php:150
+#, php-format
+msgid ""
+"<p>Your author URL <code>%s</code> is not accessible. Please check your "
+"WordPress setup or permalink structure. If the setup seems fine, maybe check "
+"if a plugin might restrict the access.</p>"
+msgstr ""
+
+#: includes/class-health-check.php:167
+#, php-format
+msgid ""
+"<p>Your author URL <code>%s</code> is redirecting to another page, this is "
+"often done by SEO plugins like \"Yoast SEO\".</p>"
+msgstr ""
+
+#: includes/class-health-check.php:184
+#, php-format
+msgid ""
+"<p>Your author URL <code>%s</code> does not return valid JSON for "
+"<code>application/activity+json</code>. Please check if your hosting "
+"supports alternate <code>Accept</code> headers.</p>"
+msgstr ""
+
+#: includes/class-health-check.php:229
+#, php-format
+msgid ""
+"<p>Your WebFinger endpoint <code>%s</code> is not accessible. Please check "
+"your WordPress setup or permalink structure.</p>"
+msgstr ""
+
+#: includes/class-health-check.php:248
+#, php-format
+msgid ""
+"<p>Your WebFinger endpoint <code>%s</code> does not return valid JSON for "
+"<code>application/jrd+json</code>.</p>"
+msgstr ""
+
+#: includes/functions.php:123
+msgid "The \"actor\" is no valid URL"
+msgstr ""
+
+#: includes/functions.php:145
+msgid "No valid JSON data"
+msgstr ""
+
+#: includes/functions.php:173
+msgid "No \"Inbox\" found"
+msgstr ""
+
+#: includes/functions.php:199
+msgid "No \"Public-Key\" found"
+msgstr ""
+
+#: includes/functions.php:227
+msgid "Profile identifier"
+msgstr ""
+
+#. translators: the webfinger resource
+#: includes/functions.php:232
+#, php-format
+msgid "Try to follow \"@%s\" in the Mastodon/Friendica search field."
+msgstr ""
+
+#: includes/peer/class-followers.php:53
+msgid "Unknown Actor schema"
+msgstr ""
+
+#: includes/rest/class-followers.php:47 includes/rest/class-followers.php:50
+#: includes/rest/class-following.php:47 includes/rest/class-following.php:50
+#: includes/rest/class-outbox.php:46 includes/rest/class-outbox.php:49
+#: includes/rest/class-webfinger.php:62
+msgid "User not found"
+msgstr ""
+
+#: includes/rest/class-inbox.php:163
+msgid "No recipients found"
+msgstr ""
+
+#: includes/rest/class-inbox.php:166
+msgid "Please check/validate \"to\" field"
+msgstr ""
+
+#: includes/rest/class-inbox.php:167
+msgid "Please check/validate \"bto\" field"
+msgstr ""
+
+#: includes/rest/class-inbox.php:168
+msgid "Please check/validate \"cc\" field"
+msgstr ""
+
+#: includes/rest/class-inbox.php:169
+msgid "Please check/validate \"bcc\" field"
+msgstr ""
+
+#: includes/rest/class-inbox.php:170
+msgid "Please check/validate \"audience\" field"
+msgstr ""
+
+#: includes/rest/class-webfinger.php:49
+msgid "Resource is invalid"
+msgstr ""
+
+#: includes/rest/class-webfinger.php:56
+msgid "Resource host does not match blog host"
+msgstr ""
+
+#: includes/table/followers-list.php:11
+msgid "Identifier"
+msgstr ""
+
+#: templates/author-json.php:48 templates/blog-json.php:49
+msgid "Blog"
+msgstr ""
+
+#: templates/author-json.php:58
+msgid "Profile"
+msgstr ""
+
+#: templates/author-json.php:69
+msgid "Website"
+msgstr ""
+
+#: templates/followers-list.php:4
+#, php-format
+msgid "You currently have %s followers."
+msgstr ""
+
+#: templates/settings.php:2
+msgid "ActivityPub Settings"
+msgstr ""
+
+#: templates/settings.php:4
+msgid ""
+"ActivityPub turns your blog into a federated social network. This means you "
+"can share and talk to everyone using the ActivityPub protocol, including "
+"users of Friendica, Pleroma and Mastodon."
+msgstr ""
+
+#: templates/settings.php:9
+msgid "Activities"
+msgstr ""
+
+#: templates/settings.php:11
+msgid "All activity related settings."
+msgstr ""
+
+#: templates/settings.php:17
+msgid "Post-Content"
+msgstr ""
+
+#: templates/settings.php:21
+msgid "Title and link"
+msgstr ""
+
+#: templates/settings.php:21
+msgid "Only the title and a link."
+msgstr ""
+
+#: templates/settings.php:24
+msgid "Excerpt"
+msgstr ""
+
+#: templates/settings.php:24
+msgid "A content summary, shortened to 400 characters and without markup."
+msgstr ""
+
+#: templates/settings.php:27
+msgid "Content (default)"
+msgstr ""
+
+#: templates/settings.php:27
+msgid "The full content."
+msgstr ""
+
+#: templates/settings.php:30
+msgid "Custom"
+msgstr ""
+
+#: templates/settings.php:30
+msgid "Use the text-area below, to customize your activities."
+msgstr ""
+
+#: templates/settings.php:36
+msgid "The Post-Title."
+msgstr ""
+
+#: templates/settings.php:37
+msgid "The Post-Content."
+msgstr ""
+
+#: templates/settings.php:38
+msgid "The Post-Excerpt (default 400 Chars)."
+msgstr ""
+
+#: templates/settings.php:39
+msgid "The Post-Permalink."
+msgstr ""
+
+#: templates/settings.php:41
+msgid "The Tags as Hashtags."
+msgstr ""
+
+#: templates/settings.php:43
+#, php-format
+msgid "%sLet me know%s if you miss a template placeholder."
+msgstr ""
+
+#: templates/settings.php:50
+msgid "Activity-Object-Type"
+msgstr ""
+
+#: templates/settings.php:54
+msgid "Note (default)"
+msgstr ""
+
+#: templates/settings.php:54
+msgid "Should work with most platforms."
+msgstr ""
+
+#: templates/settings.php:57
+msgid "Article"
+msgstr ""
+
+#: templates/settings.php:57
+msgid ""
+"The presentation of the \"Article\" might change on different platforms. "
+"Mastodon for example shows the \"Article\" type as a simple link."
+msgstr ""
+
+#: templates/settings.php:60
+msgid "WordPress Post-Format"
+msgstr ""
+
+#: templates/settings.php:60
+msgid "Maps the WordPress Post-Format to the ActivityPub Object Type."
+msgstr ""
+
+#: templates/settings.php:65
+msgid "Supported post types"
+msgstr ""
+
+#: templates/settings.php:68
+msgid "Enable ActivityPub support for the following post types:"
+msgstr ""
+
+#: templates/settings.php:85
+msgid "Hashtags"
+msgstr ""
+
+#: templates/settings.php:89
+msgid ""
+"Add hashtags in the content as native tags and replace the <code>#tag</code> "
+"with the tag-link."
+msgstr ""
+
+#: templates/settings.php:95
+msgid "HTML Whitelist"
+msgstr ""
+
+#: templates/settings.php:107
+msgid "Server"
+msgstr ""
+
+#: templates/settings.php:109
+msgid "Server related settings."
+msgstr ""
+
+#: templates/settings.php:115
+msgid "Blocklist"
+msgstr ""
+
+#: templates/settings.php:118
+#, php-format
+msgid ""
+"To block servers, add the host of the server to the \"<a href=\"%s"
+"\">Disallowed Comment Keys</a>\" list."
+msgstr ""
+
+#: templates/settings.php:132
+msgid ""
+"If you like this plugin, what about a small <a href=\"https://notiz.blog/"
+"donate\">donation</a>?"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/pfefferle/wordpress-activitypub/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The ActivityPub protocol is a decentralized social networking protocol based "
+"upon the ActivityStreams 2.0 data format."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Matthias Pfefferle"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://notiz.blog/"
+msgstr ""
